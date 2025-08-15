@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Predictor Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>AI Predictor 🤖</h1>
+        <div class="chat-box" id="chatBox"></div>
+        <form id="chatForm">
+            <input type="number" id="age" placeholder="Enter age" required min="0">
+            <select id="gender" required>
+                <option value="" disabled selected>Select gender</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
